@@ -1,7 +1,15 @@
-//: [Previous](@previous)
+// String Concatenation
 
-import Foundation
+let country = "France"
+let state = "Ile de France"
+let city = "Paris"
+let street = "Rue De Paris"
+let buildingNumber = 222
 
-var str = "Hello, playground"
+let address = country + ", " + state + ", " + city
+// let streetAddress = buildingNumber + street -> causes an error
 
-//: [Next](@next)
+// String Interpolation
+
+let interpolatedAddress = "\(country), \(state), \(city)"
+let interpolatedStreetAddress = "\(buildingNumber), \(street)"
