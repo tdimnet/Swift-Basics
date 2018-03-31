@@ -13,3 +13,29 @@ let address = country + ", " + state + ", " + city
 
 let interpolatedAddress = "\(country), \(state), \(city)"
 let interpolatedStreetAddress = "\(buildingNumber), \(street)"
+
+/*
+ ----------
+ Integers
+ ----------
+*/
+
+let favoriteProgrammingLanguage = "Swift"
+let year = 2014 // Int
+
+
+/*
+ -------------------------
+ Floating Point Numbers
+ -------------------------
+*/
+
+var version = 3.0 // Double
+
+/*
+ -------------------------
+ Boolean
+ -------------------------
+*/
+
+let isAwesome = true // Bool
