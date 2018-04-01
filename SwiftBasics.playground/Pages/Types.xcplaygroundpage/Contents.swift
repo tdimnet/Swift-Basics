@@ -39,3 +39,17 @@ var version = 3.0 // Double
 */
 
 let isAwesome = true // Bool
+
+/*
+ -------------------------
+ Type Safety
+ -------------------------
+*/
+
+var someString  = ""
+// someString = 12.0 -> will not work with of type safety
+
+let bestPlayer: String = "Mikael Jordan"
+let averagePointsPerGame: Double = 30.1
+let yearOfRetirement: Int = 2003
+let hallOfFame: Bool = true
