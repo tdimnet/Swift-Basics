@@ -36,3 +36,27 @@ string1 != string3
 */
 
 var x = 100 + 100 - ((5 * 2) / 3) % 7
+
+/*
+ -------------------
+ Unary Operator
+ -------------------
+ */
+
+var levelScore: Int = 0
+// levelScore = levelScore + 1
+levelScore += 1 // -> unary plus operator
+levelScore -= 1 // -> unary minus operator
+
+/*
+ -------------------
+ NOT Operator
+ -------------------
+ */
+
+let on: Bool = true
+let off: Bool = !on
+
+
+
+
